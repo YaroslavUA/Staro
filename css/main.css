@@ -1,43 +1,47 @@
-.question {
-	font-style: Arnoldboecklin, fantasy;
-    color: #3868a9;
-    font-size: 20px;
+header {
+	position: relative;
 	
 }
 
-.index_pic_1 {
-	/*background-image: url(/img/index_pic_1.png) no-repeat center top;*/
-	margin-top: -10px;
-	padding-top: 20px;
-	text-align: centet;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
-	width: 100%;
-	-webkit-background-size: cover;
-	background-size: 100%;
+.brend {
+	position: absolute;
+	height: 10%;
+	width: 10%;
+	top: 20px;
+	left: 250px;
+	
 }
 
-
-.text_hight {
-    position	: absolute;
-	top		: 200px;
-	color: red;
+.index_symbol_1 {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 70px;
+	left: 360px;
 }
 
-.text_samara {
-    position	: absolute;
-	top		: 200px;
-	color: red;
+.question {
+	position: absolute;
+	font-style: Arnoldboecklin, fantasy;
+    color: #3868a9;
+	top: 40px;
+	left: 650px;
 }
 
+.number {
+	position: absolute;
+	top: 40px;
+	left: 850px;
+}
 
 li {
     display: inline;
 }
 
 ul {
-	
+	position: absolute;
+	left: 400px;
+	top: 100px;
 	float: center;
     list-style-type: none;
     margin: 0;
@@ -55,4 +59,84 @@ li a {
 
 li a:hover {
     background-color: #F5F5F5;
+}
+
+
+.information {
+position: static;
+background: url(img/index_pic_1.png)
+
+}
+
+.index_pic_1 {
+	/*background-image: url(/img/index_pic_1.png) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: centet;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: 100%;*/
+	position: absolute;
+	top: 150px;
+	width: 97%;
+	
+	
+}
+
+
+.text_hight {
+    position	: absolute;
+	top		: 300px;
+	left: 300px;
+	color: white;
+}
+
+.text_samara {
+    position	: absolute;
+	top		: 350px;
+	left: 300px;
+	color: white;
+}
+
+
+/*.building {
+	position: absolute;
+	top: 550px;
+	left:200;
+	
+	
+	
+	
+}
+*/
+
+.building_1 {
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	left:200;
+	top: 550px;
+}
+
+
+.building_2 {
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	left: 450px;
+	top: 550px;
+}
+
+.building_3 {
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	left: 700px;
+	top: 550px;
 }
